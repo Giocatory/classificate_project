@@ -140,6 +140,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Создаем папки для хранения изображений, если они еще не созданы
 os.makedirs(os.path.join(MEDIA_ROOT, 'input_img'), exist_ok=True)
 os.makedirs(os.path.join(MEDIA_ROOT, 'output_img'), exist_ok=True)
+os.makedirs(os.path.join(MEDIA_ROOT, 'input_video'), exist_ok=True)
+os.makedirs(os.path.join(MEDIA_ROOT, 'output_video'), exist_ok=True)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
